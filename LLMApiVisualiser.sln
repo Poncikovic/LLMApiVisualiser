@@ -3,12 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLMApiVisualiser", "WinFormsApp1\LLMApiVisualiser.csproj", "{B4C07467-DCEA-426B-B086-BDACF635CADB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3583C28D-E257-4689-8681-1AAD59CDDCD5} = {3583C28D-E257-4689-8681-1AAD59CDDCD5}
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLMFramework", "LLMFramework\LLMFramework.csproj", "{3583C28D-E257-4689-8681-1AAD59CDDCD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLMApiVisualiser", "LLMApiVisualiser\LLMApiVisualiser.csproj", "{A6BB6CE7-1732-1040-7FFD-1BE99419A5F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4C07467-DCEA-426B-B086-BDACF635CADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4C07467-DCEA-426B-B086-BDACF635CADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4C07467-DCEA-426B-B086-BDACF635CADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4C07467-DCEA-426B-B086-BDACF635CADB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3583C28D-E257-4689-8681-1AAD59CDDCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3583C28D-E257-4689-8681-1AAD59CDDCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3583C28D-E257-4689-8681-1AAD59CDDCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3583C28D-E257-4689-8681-1AAD59CDDCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BB6CE7-1732-1040-7FFD-1BE99419A5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BB6CE7-1732-1040-7FFD-1BE99419A5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BB6CE7-1732-1040-7FFD-1BE99419A5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BB6CE7-1732-1040-7FFD-1BE99419A5F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
